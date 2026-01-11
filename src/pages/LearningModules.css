@@ -1,0 +1,261 @@
+.learning-modules {
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+.modules-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.modules-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.modules-header h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 8px;
+}
+
+.modules-header p {
+  font-size: 18px;
+  color: #4a5568;
+}
+
+.module-selection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.module-card {
+  text-align: center;
+  padding: 48px 32px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.module-card:hover {
+  transform: translateY(-8px);
+}
+
+.iq-card {
+  border-top: 4px solid #667eea;
+}
+
+.eq-card {
+  border-top: 4px solid #f5576c;
+}
+
+.module-icon {
+  font-size: 80px;
+  margin-bottom: 24px;
+}
+
+.module-card h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 16px;
+}
+
+.module-card p {
+  font-size: 16px;
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.level-info {
+  margin-bottom: 24px;
+}
+
+.level-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.quiz-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quiz-header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.level-display {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.level-label {
+  font-size: 24px;
+  font-weight: 700;
+  color: #667eea;
+}
+
+.module-type-badge {
+  background: #edf2f7;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.score-display {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.quiz-progress {
+  margin-bottom: 32px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 12px;
+  background: #e2e8f0;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.3s ease;
+}
+
+.quiz-progress p {
+  text-align: center;
+  color: #4a5568;
+  font-weight: 600;
+}
+
+.question-card {
+  padding: 48px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.question-text {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 32px;
+  line-height: 1.4;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.option-btn {
+  padding: 24px;
+  font-size: 24px;
+  border: 3px solid #e2e8f0;
+  border-radius: 12px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.option-btn:hover {
+  border-color: #667eea;
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+}
+
+.option-btn.selected {
+  border-color: #667eea;
+  background: #edf2f7;
+}
+
+.result-section {
+  margin-bottom: 32px;
+}
+
+.result {
+  padding: 32px;
+  border-radius: 12px;
+}
+
+.result.correct {
+  background: #f0fff4;
+  border: 2px solid #48bb78;
+}
+
+.result.incorrect {
+  background: #fffaf0;
+  border: 2px solid #ed8936;
+}
+
+.result-icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.result h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #1a202c;
+}
+
+.result p {
+  font-size: 16px;
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .modules-header h1 {
+    font-size: 32px;
+  }
+
+  .module-selection {
+    grid-template-columns: 1fr;
+  }
+
+  .question-card {
+    padding: 32px 24px;
+  }
+
+  .question-text {
+    font-size: 22px;
+  }
+
+  .options-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .option-btn {
+    font-size: 20px;
+  }
+}

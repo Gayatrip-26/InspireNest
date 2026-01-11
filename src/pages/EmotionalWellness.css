@@ -1,0 +1,327 @@
+.emotional-wellness {
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+.wellness-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.wellness-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.wellness-header h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 8px;
+}
+
+.wellness-header p {
+  font-size: 18px;
+  color: #4a5568;
+}
+
+.mood-tracker {
+  margin-bottom: 48px;
+}
+
+.mood-tracker h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.moods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.mood-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 24px;
+  border: 3px solid #e2e8f0;
+  border-radius: 16px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mood-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.mood-btn.selected {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.mood-emoji {
+  font-size: 48px;
+}
+
+.mood-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.mood-notes {
+  margin-bottom: 24px;
+}
+
+.mood-notes label {
+  display: block;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.notes-textarea {
+  width: 100%;
+  padding: 16px;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: inherit;
+  resize: vertical;
+  transition: border-color 0.3s;
+}
+
+.notes-textarea:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.save-mood-btn {
+  width: 100%;
+}
+
+.mood-stats {
+  margin-bottom: 48px;
+}
+
+.mood-stats h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 24px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  color: white;
+}
+
+.stat-value {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.stat-label {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.mood-history {
+  margin-bottom: 48px;
+}
+
+.mood-history h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 24px;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.history-item {
+  padding: 20px;
+}
+
+.history-mood {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.history-emoji {
+  font-size: 48px;
+}
+
+.history-info {
+  flex: 1;
+}
+
+.history-info h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 4px;
+}
+
+.history-info p {
+  font-size: 14px;
+  color: #4a5568;
+  margin-bottom: 4px;
+}
+
+.history-notes {
+  font-style: italic;
+  color: #718096;
+  margin-top: 8px;
+}
+
+.breathing-exercises {
+  margin-bottom: 48px;
+}
+
+.breathing-exercises h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 24px;
+}
+
+.exercises-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.exercise-card {
+  padding: 32px;
+}
+
+.exercise-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 12px;
+}
+
+.exercise-card > p {
+  font-size: 16px;
+  color: #4a5568;
+  margin-bottom: 24px;
+}
+
+.exercise-steps h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 12px;
+}
+
+.exercise-steps ol {
+  margin-left: 24px;
+  color: #4a5568;
+}
+
+.exercise-steps li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.feeling-help {
+  margin-bottom: 48px;
+}
+
+.help-card {
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+  padding: 40px;
+  text-align: center;
+}
+
+.help-card h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 16px;
+}
+
+.help-card > p {
+  font-size: 18px;
+  color: #1a202c;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.help-tips {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.tip {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 48px 24px;
+  color: #4a5568;
+}
+
+.empty-state p {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .wellness-header h1 {
+    font-size: 32px;
+  }
+
+  .moods-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .exercises-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .help-tips {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+

@@ -1,0 +1,355 @@
+.parent-dashboard {
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+.parent-nav {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.logo-icon {
+  font-size: 32px;
+}
+
+.logout-btn {
+  background: #e53e3e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: #c53030;
+  transform: translateY(-2px);
+}
+
+.dashboard-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.dashboard-header {
+  margin-bottom: 32px;
+}
+
+.dashboard-header h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 8px;
+}
+
+.dashboard-header p {
+  font-size: 18px;
+  color: #4a5568;
+}
+
+.overview-stats {
+  margin-bottom: 48px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 24px;
+}
+
+.stat-icon {
+  font-size: 48px;
+}
+
+.stat-info {
+  flex: 1;
+}
+
+.stat-value {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a202c;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #4a5568;
+  margin-top: 4px;
+}
+
+.mood-insights,
+.activity-analysis,
+.recent-activity,
+.badges-section,
+.insights-section {
+  margin-bottom: 48px;
+}
+
+.mood-insights h2,
+.activity-analysis h2,
+.recent-activity h2,
+.badges-section h2,
+.insights-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 24px;
+}
+
+.mood-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.mood-stat-item {
+  text-align: center;
+  padding: 24px;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  border-radius: 16px;
+  color: white;
+}
+
+.mood-stat-value {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.mood-stat-label {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.recent-moods h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 16px;
+}
+
+.moods-timeline {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.mood-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  background: #f7fafc;
+  border-radius: 12px;
+  min-width: 80px;
+}
+
+.mood-emoji-small {
+  font-size: 32px;
+}
+
+.mood-date {
+  font-size: 12px;
+  color: #4a5568;
+  font-weight: 600;
+}
+
+.activity-breakdown-parent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 24px;
+}
+
+.activity-item-parent {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 24px;
+  background: #f7fafc;
+  border-radius: 12px;
+}
+
+.activity-icon-parent {
+  font-size: 48px;
+}
+
+.activity-info-parent {
+  flex: 1;
+}
+
+.activity-count-parent {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a202c;
+}
+
+.activity-label-parent {
+  font-size: 14px;
+  color: #4a5568;
+}
+
+.activity-list-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.activity-item-parent-card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+}
+
+.activity-icon-parent-card {
+  font-size: 48px;
+}
+
+.activity-info-parent-card {
+  flex: 1;
+}
+
+.activity-info-parent-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 4px;
+}
+
+.activity-info-parent-card p {
+  font-size: 14px;
+  color: #4a5568;
+}
+
+.activity-points-parent {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f59e0b;
+}
+
+.badges-grid-parent {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.badge-card-parent {
+  text-align: center;
+  padding: 32px 24px;
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  color: white;
+}
+
+.badge-icon-parent {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.badge-card-parent h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.insights-card {
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+  padding: 40px;
+}
+
+.insights-card h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 24px;
+}
+
+.insights-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.insight-item {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.insight-item p {
+  font-size: 16px;
+  color: #1a202c;
+  line-height: 1.6;
+}
+
+.insight-item strong {
+  color: #667eea;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 48px 24px;
+  color: #4a5568;
+}
+
+.empty-state p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .dashboard-header h1 {
+    font-size: 32px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mood-stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .badges-grid-parent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .activity-breakdown-parent {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
