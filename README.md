@@ -113,10 +113,21 @@ The project was developed efficiently by using the right tools and workflows to 
 
 ### **Frontend**
 
-* React.js (18+)
-* React Router DOM
-* HTML5
-* CSS3 (simple, responsive styling)
+* **React.js (v18+)** – Component-based, reactive UI development
+* **React Router DOM** – Client-side routing for single-page applications
+* **HTML5 & CSS3** – Semantic markup and responsive design
+* **Axios / Fetch API** – For making HTTP requests to backend APIs
+* **JWT Authentication** – Secure token-based authentication
+
+
+### **Backend**
+
+* **Node.js** – Server-side JavaScript runtime
+* **Express.js** – Fast, minimal backend framework
+* **MongoDB (NoSQL)** – Flexible, document-based database
+* **Mongoose** – ODM for MongoDB, schema-based data modeling
+* **JWT Authentication** – Secure user authentication with JSON Web Tokens (optional)
+* **Bcrypt.js** – Password hashing and security (optional)
 
 ### **State & Storage**
 
