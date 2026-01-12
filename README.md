@@ -3,7 +3,7 @@
 A purpose-driven, fully responsive web application designed to support **“intellectually disabled children** through interactive learning, emotional care, creativity, and daily life skill development.
 
 ![Tech](https://img.shields.io/badge/Tech-React%20%7C%20CSS%20%7C%20JavaScript-blue)
-![Status](https://img.shields.io/badge/Project_Status-Completed-green)
+![Status](https://img.shields.io/badge/Project_Status-Under%20Development-red)
 ![Purpose](https://img.shields.io/badge/Focus-Inclusive%20Education%20%26%20Wellness-purple)
 
 ---
@@ -64,8 +64,9 @@ The project was developed efficiently by using the right tools and workflows to 
 ![Signup Page](https://github.com/Gayatrip-26/InspireNest/blob/4e0454c4e9795a24baafea35cb6c91aad9064c3b/landing1.png)
 <p align="center"><em>Main Dashboard Page of InspireNest.</em></p>
 
-![Signup Page](https://github.com/Gayatrip-26/InspireNest/blob/4e0454c4e9795a24baafea35cb6c91aad9064c3b/landing1.png)
-![Signup Page](https://github.com/Gayatrip-26/InspireNest/blob/4e0454c4e9795a24baafea35cb6c91aad9064c3b/landing1.png)
+![Signup Page](https://github.com/Gayatrip-26/InspireNest/blob/09f3aa85ad633b9fd6d1f16beacef89c4ac3c797/videoLec.png)
+![Signup Page](https://github.com/Gayatrip-26/InspireNest/blob/09f3aa85ad633b9fd6d1f16beacef89c4ac3c797/videoLec1.png)
+![Signup Page](https://github.com/Gayatrip-26/InspireNest/blob/09f3aa85ad633b9fd6d1f16beacef89c4ac3c797/VideoLec2.png)
 <p align="center"><em>Feature - 1 : Video Lectures.</em></p>
 
 
